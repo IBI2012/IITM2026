@@ -1,0 +1,21 @@
+[workspace]
+name = "iitm2026-image-analysis"
+version = "0.1.0"
+description = "Python basics for image analysis"
+channels = ["conda-forge"]
+# Windows, Linux, macOS Intel (osx-64) and macOS Apple Silicon (osx-arm64)
+platforms = ["win-64", "linux-64", "osx-64", "osx-arm64"]
+
+[dependencies]
+python = "3.12.*"
+numpy = ">=2.0"
+scipy = "*"
+matplotlib = "*"
+scikit-image = ">=0.24"
+pandas = "*"
+imageio = "*"
+tifffile = "*"
+pooch = "*"
+jupyterlab = ">=4"
+ipykernel = "*"
+ipywidgets = "*"

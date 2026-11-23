@@ -1,0 +1,12 @@
+# pixi environments
+.pixi/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Notebook outputs
+notebooks/output/
+
+# Python / OS
+__pycache__/
+.DS_Store
