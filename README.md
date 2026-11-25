@@ -8,7 +8,7 @@ The environment is managed with [pixi](https://pixi.sh) and works on Windows, Li
 
 1. You will need to install [git](https://git-scm.com/install/). Choose the right one for your operating system.
 
-2. Once git is installed, open a terminal. In Windows, you can press Start Button and type `Powers Shell` to get access to a `terminal`. Type `git` and then press Enter to verify git is installed.
+2. Once git is installed, open a terminal. In Windows, you can press Start Button and type `PowerShell` to get access to a `terminal`. Type `git` and then press Enter to verify git is installed.
 
 3. Once you are in your terminal, you can install pixi using the following commands:
    - **Windows:** `winget install prefix-dev.pixi`
