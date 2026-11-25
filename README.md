@@ -6,11 +6,16 @@ Python basics for image analysis.
 
 The environment is managed with [pixi](https://pixi.sh) and works on Windows, Linux, and macOS (Intel and Apple Silicon).
 
-1. Install pixi, then restart your terminal:
+1. You will need to install [git](https://git-scm.com/install/). Choose the right one for your operating system.
+
+2. Once git is installed, open a terminal. In Windows, you can press Start Button and type `Powers Shell` to get access to a `terminal`. Type `git` and then press Enter to verify git is installed.
+
+3. Once you are in your terminal, you can install pixi using the following commands:
    - **Windows:** `winget install prefix-dev.pixi`
    - **macOS / Linux:** `curl -fsSL https://pixi.sh/install.sh | sh`
+   Restart the terminal after installing pixi.
 
-2. Clone this repository and install the environment:
+4. Clone this repository and install the environment:
 
    ```bash
    git clone https://github.com/IBI2012/IITM2026.git
@@ -18,11 +23,13 @@ The environment is managed with [pixi](https://pixi.sh) and works on Windows, Li
    pixi install
    ```
 
-3. Start JupyterLab and open the notebooks in the `notebooks` folder:
+5. Start JupyterLab:
 
    ```bash
    pixi run jupyter lab
    ```
+   This will launch jupyter lab in your browser.
+   Once you are in jupyter lab, open the notebooks in the `notebooks` folder
 
 ## Notebooks
 
