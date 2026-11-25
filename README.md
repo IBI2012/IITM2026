@@ -13,7 +13,7 @@ The environment is managed with [pixi](https://pixi.sh) and works on Windows, Li
 2. Clone this repository and install the environment:
 
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/IBI2012/IITM2026.git
    cd IITM2026
    pixi install
    ```
